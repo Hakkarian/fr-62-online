@@ -1,0 +1,496 @@
+/*
+Universal *
+tags p
+id Must Be Unique, only ONE   #text
+class  .popular
+attribute  
+daughter
+ancestor
+*/
+
+:root {
+    --head-color: #FFFFFF;
+    --title-color: #303030;
+    --button-hover:  #FF6C00;
+    --intro-text: #555555;
+    --intro-color: rgba(157, 164, 189, 0.6);
+    --list-text: #9DA4BD;
+    
+}
+.main-body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+
+}
+.headest {
+    background-color: #303030;
+}
+.head-logo {
+
+}
+.head-list {
+background-color: grey;
+}
+
+.head-element {
+
+}
+.head-about {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+
+    color: var(--head-color);
+}
+.head-about:hover,
+.head-about:focus {
+
+
+    color: var(--button-hover);
+}
+.head-services {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color:  var(--head-color);
+    
+}
+.head-services:hover,
+.head-services:focus {
+
+
+    color: var(--button-hover);
+}
+.head-barbers {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--head-color);
+}
+.head-barbers:hover,
+.head-barbers:focus {
+
+
+    color: var(--button-hover);
+}
+.head-contacts {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--head-color);
+}
+.head-contacts:hover,
+.head-contacts:focus {
+
+
+    color: var(--button-hover);
+}
+.head-phone {
+    font-size: 12px;
+    line-height: calc(16/12);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--head-color);
+}
+.head-button {
+    font-family: inherit;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+.head-button:hover, 
+.head-button:focus {
+
+    color: var(--head-color);
+    background-color: var(--button-hover)
+}
+.apps {
+
+}
+.apps-list {
+
+}
+.apps-element {
+
+}
+.apps-inst {
+
+}
+.apps-you {
+
+}
+.hero {
+
+}
+.hero-p {
+    font-size: 11px;
+    line-height: calc(15/11);
+    
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: var(--intro-color);
+}
+.hero-barber {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49/42);
+    letter-spacing: 0.05em;
+
+    color: var(--title-color);
+}
+.hero-trendy {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(30/18);
+    /* or 167% */
+
+    letter-spacing: 0.02em;
+
+    color: var(--list-text);
+}
+.intro {
+
+}
+.intro-types {
+
+}
+.intro-element {
+
+}
+.intro-about {
+    font-size: 11px;
+    line-height: calc(15/11);
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: var(--title-color);
+}
+.intro-barber {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49/42);
+    letter-spacing: 0.05em;
+
+    color: var(--title-color);
+}
+.intro-expl {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(30/18);
+    /* or 167% */
+
+    letter-spacing: 0.02em;
+
+    color: var(--intro-color);
+}
+.intro-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(26/14);
+    letter-spacing: 0.02em;
+    
+    color: var(--intro-color);
+}
+.intro-button {
+    font-size: 12px;
+    line-height: calc(16/12);
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+
+    color: var(--title-color);
+}
+.intro-button:hover,
+.intro-button:focus {
+    background-color: var(--button-hover);
+    color: var(--head-color);
+}
+.services {
+background-color: var(--title-color);
+}
+.services-intro {
+    font-size: 11px;
+    line-height: calc(15/11);
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: var(--intro-color);
+}
+.services-header {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49/42);
+    letter-spacing: 0.05em;
+
+    color: var(--head-color);
+}
+.services-pricelist {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(30/18);
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.02em;
+
+    color: var(--list-text);
+}
+.services-element {
+
+}
+.services-type {
+
+}
+.services-price {
+
+}
+.awards {
+
+}
+.awards-list {
+
+}
+.awards-element {
+background-color: #F7F7F7;
+}
+.awards-quantity {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(57/42);
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: var(--title-color);
+}
+.awards-sign {
+    font-size: 16px;
+    line-height: calc(22/16);
+    
+    text-align: center;
+    
+    color: var(--button-hover);
+}
+.awards-info {
+    font-size: 11px;
+    line-height: calc(15/11);
+    text-align: center;
+    color: var(--title-color);
+}
+.awards-root {
+    font-size: 11px;
+    line-height: calc(15/11);
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.awards-why {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49/42);
+    letter-spacing: 0.05em;
+    color: var(--title-color);
+}
+.awards-good {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(30/18);
+    /* or 167% */
+
+    letter-spacing: 0.02em;
+    color: var(--intro-text);
+}
+.command {
+
+}
+.command-info {
+    font-size: 11px;
+    line-height: calc(15/11);
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.command-header {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49/42);
+    letter-spacing: 0.05em;
+    color: var(--title-color);
+}
+.command-list {
+
+}
+.command-element {
+
+}
+.command-img {
+
+}
+.command-barber {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(25/18);
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.command-extreme {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(19/14);
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--button-hover);
+}
+.rect {
+
+}
+.rect-barba {
+    font-size: 11px;
+    line-height: calc(15/11);
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.rect-gallery {
+
+}
+.rect-list {
+
+}
+.rect-element {
+
+}
+.booking {
+    background-color: #303030;
+}
+.booking-online {
+    font-weight: 700;
+        font-size: 42px;
+        line-height: calc(49/42);
+        letter-spacing: 0.05em;
+        color: var(--head-color);
+}
+.contacts {
+    background-color: grey;
+}
+.contacts-header {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49/42);
+    letter-spacing: 0.05em;
+    color: var(--head-color);
+}
+.contacts-adress {
+    font-style: normal;
+}
+.contacts-list {
+
+}
+.contacts-element {
+
+}
+.contacts-loc {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(30/18);
+    /* or 167% */
+
+    letter-spacing: 0.02em;
+    color: var(--list-text);
+}
+.contacts-phone {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(30/18);
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.02em;
+    color: var(--list-text);
+}
+.contacts-email {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(30/18);
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.02em;
+    color: var(--list-text);
+}
+.contacts-working {
+    font-size: 11px;
+    line-height: calc(15/11);
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--head-color);
+}
+.contacts-hours {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(30/18);
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.02em;
+    color: var(--list-text);
+}
+.footer {
+
+}
+.footer-copy {
+    font-size: 11px;
+    line-height: calc(15/11);
+    /* identical to box height */
+
+    letter-spacing: 0.2em;
+    color: var(--list-text);
+}
+.footer-list {
+
+}
+.footer-element {
+    
+}
+.footer-inst {
+    font-size: 11px;
+    line-height: calc(15/11);
+    /* identical to box height */
+
+    letter-spacing: 0.2em;
+    color: var(--title-color);
+}
+.footer-you {
+    font-size: 11px;
+    line-height: calc(15/11);
+    /* identical to box height */
+
+    letter-spacing: 0.2em;
+    color: var(--title-color);
+}
+

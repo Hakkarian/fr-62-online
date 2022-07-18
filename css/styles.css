@@ -17,6 +17,16 @@ ancestor
     --list-text: #9DA4BD;
     
 }
+.container {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+            outline: 2px solid red;
+    
+        
+}
 .main-body {
 
     font-family: 'Open Sans', sans-serif;
@@ -153,6 +163,8 @@ background-color: grey;
     color: var(--title-color);
 }
 .hero-trendy {
+    max-width: 360px;
+
     font-weight: 400;
     font-size: 18px;
     line-height: calc(30/18);
@@ -172,6 +184,9 @@ background-color: grey;
 
 }
 .intro-about {
+    padding-top: 130px;
+    padding-bottom: 130px;
+
     font-size: 11px;
     line-height: calc(15/11);
     /* identical to box height */
@@ -182,6 +197,7 @@ background-color: grey;
     color: var(--title-color);
 }
 .intro-barber {
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 42px;
     line-height: calc(49/42);
@@ -190,6 +206,7 @@ background-color: grey;
     color: var(--title-color);
 }
 .intro-expl {
+    margin-bottom: 20px;
     font-weight: 400;
     font-size: 18px;
     line-height: calc(30/18);
@@ -200,6 +217,7 @@ background-color: grey;
     color: var(--intro-color);
 }
 .intro-text {
+    margin-bottom: 40px;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(26/14);
@@ -224,6 +242,7 @@ background-color: grey;
 background-color: var(--title-color);
 }
 .services-intro {
+    margin-bottom: 20px;
     font-size: 11px;
     line-height: calc(15/11);
     /* identical to box height */
@@ -234,6 +253,7 @@ background-color: var(--title-color);
     color: var(--intro-color);
 }
 .services-header {
+    margin-bottom: 44px;    
     font-weight: 700;
     font-size: 42px;
     line-height: calc(49/42);
@@ -242,6 +262,8 @@ background-color: var(--title-color);
     color: var(--head-color);
 }
 .services-pricelist {
+    padding: 30px 40px;
+    margin-bottom: 44px;
     font-weight: 400;
     font-size: 18px;
     line-height: calc(30/18);
@@ -250,6 +272,7 @@ background-color: var(--title-color);
     letter-spacing: 0.02em;
 
     color: var(--list-text);
+    outline: 1px solid white;
 }
 .services-element {
 
@@ -260,13 +283,22 @@ background-color: var(--title-color);
 .services-price {
 
 }
+.services-button {
+    display: block;
+    margin: 50px auto 0;
+}
 .awards {
-
+padding-top: 121px;
+padding-bottom: 130px;
 }
 .awards-list {
 
 }
 .awards-element {
+    width: 170px;
+    height: 133px;
+    border: 1px solid;
+    padding: 20px 24px;
 background-color: #F7F7F7;
 }
 .awards-quantity {
@@ -293,6 +325,7 @@ background-color: #F7F7F7;
     color: var(--title-color);
 }
 .awards-root {
+    margin-bottom: 20px;
     font-size: 11px;
     line-height: calc(15/11);
     /* identical to box height */
@@ -302,6 +335,7 @@ background-color: #F7F7F7;
     color: var(--title-color);
 }
 .awards-why {
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 42px;
     line-height: calc(49/42);
@@ -309,6 +343,7 @@ background-color: #F7F7F7;
     color: var(--title-color);
 }
 .awards-good {
+    margin-bottom: 20px;
     font-weight: 400;
     font-size: 18px;
     line-height: calc(30/18);
